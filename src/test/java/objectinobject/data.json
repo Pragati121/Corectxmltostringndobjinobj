@@ -1,0 +1,14 @@
+{
+  "firstname": "Pragati",
+  "lastname": "Sharma",
+  "address":
+  {
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "abc":
+    {
+      "distt": "kangra",
+      "pin": 565655
+    }
+  }
+}
