@@ -8,7 +8,7 @@ import java.nio.file.Paths;
 public class TestClass {
         public static void main(String args[]) throws Exception {
             XmlMapper xml = new XmlMapper();
-            String readContent = new String(Files.readAllBytes(Paths.get("C:\\Users\\PragatiSharma\\IdeaProjects\\ObjectOfObjectWithPojoClass\\Test.xml")));
+            String readContent = new String(Files.readAllBytes(Paths.get("C:\\Users\\PragatiSharma\\IdeaProjects\\xmltostringandobjectinobj\\src\\test\\java\\xmltostring\\Test.xml")));
            PojoClass Test = xml.readValue(readContent, PojoClass.class);
             String Name = Test.getFirstname();
             String lName = Test.getLastanme();
