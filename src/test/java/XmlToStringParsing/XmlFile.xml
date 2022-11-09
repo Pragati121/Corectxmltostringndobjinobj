@@ -1,0 +1,17 @@
+<Laptops>
+    <laptop detail ="Info">
+    <laptopName>H.P</laptopName>
+        <price>45000</price>>
+        <Ram>128Gb</Ram>
+    </laptop>
+    <laptop detail ="Info">
+        <laptopName>Dell</laptopName>
+        <price>45000</price>>
+        <Ram>128Gb</Ram>
+    </laptop>
+    <laptop detail ="Info">
+        <laptopName>lenovo</laptopName>
+        <price>45000</price>>
+        <Ram>128Gb</Ram>
+    </laptop>
+</Laptops>

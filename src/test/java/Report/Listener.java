@@ -31,7 +31,6 @@ public class Listener implements ITestListener {
     public void onTestSkipped(ITestResult result) {
     }
 
-
     public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
     }
 

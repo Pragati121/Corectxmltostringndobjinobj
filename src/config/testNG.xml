@@ -16,4 +16,10 @@
             <class name="objectinobject.TestJsonParsing"/>
         </classes>
     </test>
+<test name="serialization of multiple xml files to string ">
+<parameter name="browserName" value="chrome"></parameter>
+<classes>
+    <class name="XmlToStringParsing.XmlParserCLass"/>
+</classes>
+</test>
 </suite>
