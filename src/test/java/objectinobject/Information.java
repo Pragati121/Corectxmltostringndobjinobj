@@ -1,7 +1,4 @@
 package objectinobject;
-
-
-
 public class Information {
     private String firstname;
     private String lastname;

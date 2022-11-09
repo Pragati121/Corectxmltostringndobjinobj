@@ -2,13 +2,15 @@ package objectinobject;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class TestJsonParsing {
-    public static void main(String[] args) throws IOException {
+    @Test
+    public static void ObjectOfObject() throws IOException {
         //Itwillreadallthedatainttheformofbytesthatiswhyimcreatingherebyte
         byte[] jsonData = Files.readAllBytes(Paths.get("C:\\Users\\PragatiSharma\\IdeaProjects\\xmltostringandobjectinobj\\src\\test\\java\\objectinobject\\data.json"));
         ObjectMapper mapper = new ObjectMapper();
@@ -20,4 +22,8 @@ public class TestJsonParsing {
         System.out.println("district is "+" "+information.getAddress().getAbc().getDistt());
         System.out.println("Pincode is "+" "+information.getAddress().getAbc().getPin());
     }
+
+    public static void main(String[] args) throws IOException {
+        ObjectOfObject();
     }
+}
